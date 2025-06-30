@@ -1,0 +1,96 @@
+*{
+    text-decoration: none;
+}
+body{
+    background-color: aliceblue;
+}
+section{
+    margin: 0;
+    padding: 0;
+}
+.everything{
+    background-color: rgb(33, 83, 219);
+    width: 95%;
+    height: 450px;
+    margin-left: 35px;
+    font-family: sans-serif;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 60px;
+    color: white;
+}
+.logo{
+    font-weight: bold;
+    font-size: 20px;
+}
+.nav a{
+    margin: 0px 30px;
+    color: white;
+    font-size: 12px;
+}
+.navbuttons button{
+    background-color: rgb(33, 83, 219);
+    border: 1px solid white;
+    padding: 5px;
+}
+.navbuttons a{
+    color: white;
+}
+.second{
+    padding: 40px 60px;  
+    display: flex;
+    justify-content: space-between;
+}
+.content{
+    color: white;
+}
+.content h1{
+    font-weight: 400;
+}
+.content p{
+    font-size: 15px;
+}
+.content button{
+    background-color: darkgreen;
+    border: none;
+    padding: 5px;
+}
+.content a{
+    color: white;
+    font-weight: bold;
+}
+.pic img{
+    height: 250px;
+    width: 400px;
+}
+.everything2{
+    background-color:white;
+    width: 95%;
+    height: 300px;
+    margin-left: 35px;
+    font-family: sans-serif;
+    color: rgb(10, 10, 66);
+}
+.logos{
+    justify-content: space-between;
+    margin-left: 120px;
+}
+.everything2 p{
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+}
+.logos img{
+    height: 70px;
+    width: 100px;
+    padding: 0px 30px;
+}
+.footer{
+    padding-top: 30px;
+}
+.footer h3{
+    text-align: center;
+}

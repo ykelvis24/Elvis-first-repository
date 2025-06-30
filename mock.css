@@ -1,0 +1,46 @@
+*{
+    text-decoration: none;
+    font-family: sans-serif;
+}
+body{
+    background-color: aquamarine;
+}
+.everything {
+    background-color: white;
+    height: 1650px;
+    width: 60%;
+    padding: 20px;
+    margin-left: 250px;
+}
+h1 {
+    font-family: sans-serif;
+    font-weight: 200;
+    margin-left: 50px;
+}
+.p1{
+    margin-left: 105px;
+    font-style: italic;
+}
+nav {
+    gap: 5px;
+    display: flex;
+}
+.nav-links button{
+    background-color: rgb(20, 20, 71);
+     width: 100px;
+    height: 40px;
+    border: none;
+}
+a {
+    color: white;
+}
+.img1 img{
+    width: 100%;
+    height: 500px;
+}
+h2{
+    color: lime;
+}
+.firstp{
+    display: flex;
+}
