@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    background: linear-gradient(90deg, #3648eb 0%, #f44 100%);
+    flex-wrap: wrap;
+}
+.heading{
+    display: flex;
+    gap: 20px;
+}
+.heading h1{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-top: 30px;
+}
+.heading button{
+    border-radius: 25px;
+    width: 150px;
+    height: 50px;
+    margin: 10px;
+}
+.navs{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    padding-top: 50px;
+}
+.nav-links{
+    align-items: center;
+    display: flex;
+    font-size: 20px;
+    gap: 40px;
+}
+.nav-links a{
+    color: black;
+    align-items: center;
+    font-weight: 500;
+    transition: ease 50ms;
+}
+.nav-links a:hover{
+    transform: scale(1.1);
+    color: blue;
+}
+.nav-button button{
+    width: 230px;
+    height: 60px;
+    font-size: 20px;
+    border-radius: 15px;
+    background-color:rgb(41, 41, 192);
+    color: white;
+    text-align: center;
+    border: none;
+    margin-right: 60px;
+}
+.middle{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    gap: 100px;
+}
+.subscribe{
+    width: 50%;
+    padding-left: 70px;
+}
+.subscribe h2{
+    font-size: 40px;
+    word-spacing: 10px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.subscribe p{
+    word-spacing: 3px;
+    font-size: 20px;
+}
+.subscribe button{
+     width: 230px;
+    height: 60px;
+    font-size: 20px;
+    border-radius: 15px;
+    background-color:rgb(41, 41, 192);
+    color: white;
+    text-align: center;
+    border: none;
+    margin-right: 60px;
+    font-size: 15px;
+}
+.image{
+    width: 50%;
+}
+.image img{
+    width: 100%;
+    border-radius: 15px;
+}
+.gridstyle{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-transform: capitalize;
+    gap: 20px;
+    height: 1200px;
+    background: linear-gradient(90deg, #c6d861 0%, #f44 100%);
+    color: white;
+}
+.grid1{
+    border-radius: 15px;
+    text-align: center;
+    display: grid;
+    justify-content: center;
+}
+.grid1 button{
+    background-color: aqua;
+    border: none;
+    border-radius: 15px;
+    color: white32;
+}

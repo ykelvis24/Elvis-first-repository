@@ -1,0 +1,140 @@
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    padding: 30px;
+    padding-left: 100px;
+}
+.select{
+    display: flex;
+    gap: 30px;
+}
+.select a{
+    color: Black;
+    font-size: 16px;
+    text-decoration: none;
+    transform: scale(1.1);
+}
+a::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    height: 2px;
+    width: 0;
+    background-color: blue;
+    transition: width 0.3s ease;
+}
+a:hover::after{
+    width: 100%;
+}
+.profile {
+    padding-right: 100px;
+}
+.profile button{
+    background-color: white;
+    height: 50px;
+    width: 140px;
+    font-size: 18x;
+    font-weight: bold;
+    cursor: pointer;
+}
+.profile i{
+    font-size: 20px;
+    color: black;
+}
+.middle {
+    position: relative;
+    width: 100%;
+    height: 700px;
+    background: url(diner.jpg) no-repeat center center/cover;
+}
+.order {
+    position: absolute;
+    left: 40px;
+    bottom: 40px;
+    color: white;
+    max-width: 400px;
+}
+.order button{
+    margin-top: 15px;
+    padding: 10px 20px;
+    border: none;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+.food{
+    width: 100%;
+    background-color: white;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+.food1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+.foods{
+    width: 70%;
+    margin-left: 195px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 30px 20px;
+}
+.foods a{
+    color: blue;
+}
+.foods1{
+    width: 45%;
+}
+.foods2{
+    width: 45%;
+}
+.foods2 a{
+    text-decoration: underline;
+    color: black;
+}
+.meal{
+    background-color: bisque;
+    padding: 40px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 100%;
+    gap: 30px;
+    margin: auto;
+}
+.mealimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mealimg img{
+    width: 100%;
+    max-width: 550px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+.info{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    min-width: 300px;
+}

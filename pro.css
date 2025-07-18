@@ -1,0 +1,631 @@
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 16px 0px;
+    background-color: #fff;
+    overflow-x: hidden;
+}
+
+.logo img {
+    max-width: 150px;
+    cursor: pointer;
+}
+
+.services {
+    display: flex;
+    gap: 30px;
+}
+
+.services a {
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    position: relative;
+}
+
+.services a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    height: 2px;
+    width: 0;
+    background-color: blue;
+    transition: width 0.3s ease;
+}
+
+.services a:hover::after {
+    width: 80%;
+}
+
+.order {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+}
+
+.order button {
+    background-color: white;
+    height: 50px;
+    width: 140px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.order button:hover {
+    background-color: #ff6600;
+    border: none;
+}
+
+.order i {
+    font-size: 20px;
+    color: black;
+}
+
+.middle {
+    position: relative;
+    width: 100%;
+    height: 700px;
+    background: url(diner.jpg) no-repeat center center/cover;
+}
+
+.write {
+    position: absolute;
+    left: 40px;
+    bottom: 40px;
+    color: white;
+    max-width: 90%;
+}
+
+.write button{
+    background-color: white;
+    padding: 18px 40px;
+    font-size: 19px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+}
+
+.dish{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 50px 0;
+}
+.dish img{
+    width: 65%;
+    height: auto;
+    max-height: 650px;
+}
+
+.double{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.pic{
+    width: 65%;
+    height: auto;
+    max-height: 650px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+.pic img{
+    width: 100%;
+    height: auto;
+    min-height: 400px;
+}
+
+.woman{
+    width: 50%;
+}
+
+.man{
+    width: 50%;
+}
+.woman p{
+    padding-top: 20px;
+    font-size: 19px;
+}
+
+.man p{
+    padding-top: 20px;
+    font-size: 19px;
+}
+
+.man a{
+    text-decoration: underline;
+    color: black;
+}
+
+.woman a{
+    color: rgb(66, 66, 196);
+}
+
+.woman a:hover {
+    text-decoration: underline;
+}
+
+.meal-section {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 60px 20px;
+  gap: 100px;
+  max-width: 100%;
+  margin: auto;
+  background-color: #f9f0f0;
+  margin-top: 60px;
+}
+
+.meal-image img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  border-radius: 4px;
+}
+
+.meal-content {
+  max-width: 500px;
+}
+
+.meal-content .tag {
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.meal-content h1 {
+  font-size: 30px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.meal-content li, strong{
+    font-family: arial, sans-serif;
+    font-size: 20px;
+}
+
+.meal-content p {
+  margin: 12px 0;
+  line-height: 1.5;
+}
+
+.meal-content ul {
+  margin-left: 20px;
+  margin-bottom: 15px;
+}
+
+.call-btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 15px 25px;
+  background-color: #000;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.forml{
+    display: flex;
+  justify-content: space-between;
+  /* align-items: flex-start; */
+  padding: 60px 60px;
+  gap: 100px;
+  max-width: 100%;
+  margin: auto;
+}
+
+.writing{
+    flex: 1;
+    margin-right: 40px;
+}
+.writing p{
+    padding-top: 10px;
+}
+
+.writing a{
+    color: rgb(44, 44, 139);
+}
+
+.writing a:hover{
+    text-decoration: underline;
+}
+.forms{
+    flex: 1;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea{
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+textarea{
+    height: 100px;
+    resize: vertical;
+}
+
+.this{
+    font-size: 12px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.this a{
+    color: #3b82f6;
+    text-decoration: none;
+}
+
+.btn2{
+    background-color: #555;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 120px;
+}
+
+.btn2:hover{
+    background-color: #333;
+}
+
+.footer {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px 0;
+    background-color: #fff;
+    color: #000;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.logo img {
+    max-width: 150px;
+    height: auto;
+}
+
+.nav-links a {
+    color: #000;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.social-icons a {
+    color: #000;
+    margin: 0 10px;
+    font-size: 20px;
+}
+
+.social-icons .fab.fa-facebook-f { color: #3b5998; }
+.social-icons .fab.fa-instagram { color: #e1306c; }
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #ccc;
+    margin: 20px 0;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.subscribe h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.subscribe form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.subscribe input {
+    padding: 8px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.subscribe button {
+    padding: 8px 15px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.subscribe p {
+    font-size: 12px;
+    color: #666;
+}
+
+.subscribe a {
+    color: #666;
+    text-decoration: underline;
+}
+
+.support p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.support a{
+    color: #000;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+@media (max-width: 1024px) {
+    .nav {
+        padding: 12px 0;
+    }
+    .services {
+        gap: 20px;
+    }
+    .order button {
+        height: 45px;
+        width: 130px;
+        font-size: 16px;
+    }
+    .write {
+        left: 20px;
+        bottom: 20px;
+    }
+    .write button {
+        padding: 15px 30px;
+        font-size: 16px;
+    }
+    .dish img {
+        width: 75%;
+        max-height: 500px;
+    }
+    .pic {
+        width: 80%;
+        gap: 20px;
+    }
+    .woman,
+    .man {
+        width: 48%;
+    }
+    .meal-section {
+        gap: 50px;
+        padding: 40px 10px;
+    }
+    .meal-image img {
+        max-width: 500px;
+    }
+    .meal-content {
+        max-width: 400px;
+    }
+    .meal-content h1 {
+        font-size: 25px;
+    }
+    .forml {
+        padding: 40px 20px;
+        gap: 50px;
+    }
+    .footer-top {
+        gap: 15px;
+    }
+    .footer-bottom {
+        gap: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .nav {
+        flex-direction: column;
+        padding: 10px 0;
+    }
+    .services {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .order {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .order button {
+        width: 100%;
+        height: 40px;
+    }
+    .middle {
+        height: 500px;
+    }
+    .write {
+        max-width: 80%;
+    }
+    .dish img {
+        width: 85%;
+        max-height: 400px;
+    }
+    .pic {
+        flex-direction: column;
+        width: 90%;
+        gap: 20px;
+    }
+    .woman,
+    .man {
+        width: 100%;
+    }
+    .woman p,
+    .man p {
+        font-size: 16px;
+    }
+    .meal-section {
+        flex-direction: column;
+        gap: 30px;
+        padding: 30px 10px;
+    }
+    .meal-image img {
+        max-width: 100%;
+    }
+    .meal-content {
+        max-width: 100%;
+    }
+    .meal-content h1 {
+        font-size: 20px;
+    }
+    .forml {
+        flex-direction: column;
+        padding: 30px 10px;
+        gap: 20px;
+    }
+    .writing {
+        margin-right: 0;
+    }
+    .forms input,
+    .forms textarea {
+        font-size: 14px;
+    }
+    .btn2 {
+        width: 100%;
+    }
+    .footer-top {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .footer-bottom {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .subscribe input {
+        width: 150px;
+    }
+}
+
+@media (max-width: 480px) {
+    .nav {
+        padding: 8px 0;
+    }
+    .logo img {
+        max-width: 120px;
+    }
+    .services a {
+        font-size: 14px;
+    }
+    .order i {
+        font-size: 18px;
+    }
+    .middle {
+        height: 300px;
+    }
+    .write h1 {
+        font-size: 18px;
+    }
+    .write button {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+    .dish img {
+        width: 90%;
+        max-height: 250px;
+    }
+    .pic img {
+        min-height: 250px;
+    }
+    .woman p,
+    .man p {
+        font-size: 14px;
+    }
+    .meal-content .tag {
+        font-size: 12px;
+    }
+    .meal-content h1 {
+        font-size: 18px;
+    }
+    .meal-content li,
+    .meal-content strong {
+        font-size: 16px;
+    }
+    .call-btn {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+    .forml {
+        padding: 20px 10px;
+    }
+    .writing h2 {
+        font-size: 18px;
+    }
+    .forms input,
+    .forms textarea {
+        font-size: 12px;
+        padding: 10px;
+    }
+    .this {
+        font-size: 10px;
+    }
+    .btn2 {
+        font-size: 14px;
+    }
+    .footer-top .logo img {
+        max-width: 100px;
+    }
+    .nav-links a {
+        font-size: 12px;
+    }
+    .social-icons a {
+        font-size: 18px;
+    }
+    .subscribe input {
+        width: 120px;
+    }
+    .subscribe h3 {
+        font-size: 14px;
+    }
+    .support p {
+        font-size: 12px;
+    }
+}

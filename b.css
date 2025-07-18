@@ -1,0 +1,102 @@
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    width: 100%;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loginbox{
+    background-color: white;
+    padding: 40px;
+    margin-top: 30px;
+    border-radius: 12px;
+    width: 30%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+.loginbox h2{
+    text-align: center;
+    margin-bottom: 70px;
+    font-size: 24px;
+}
+.inputbox{
+    margin-bottom: 20px;
+}
+.inputbox label{
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom:6px;
+    display: block;
+}
+.inputs{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #aaa;
+    padding: 5px 0;
+}
+.inputs i{
+    color: rgb(0, 0, 0);
+    margin-right: 10px;
+}
+.inputs input{
+    border: none;
+    outline: none;
+    padding: 8px;
+    font-size: 14px;
+    background: transparent;
+}
+.submit a{
+    color: rgb(172, 166, 166);
+    font-size: 12px;
+    display: flex;
+    justify-content: end;
+    transition: ease-in 50ms;
+}
+a:hover{
+    transform: scale(1.1);
+    color: black;
+}
+.submit button{
+    width: 100%;
+    color: white;
+    padding: 8px 0;
+    margin-top: 10px;
+    border: none;
+    border-radius: 15px;
+    transition: ease-in 50ms;
+    background: linear-gradient(90deg, purple 0%, red 100%);
+}
+button:hover{
+    transform: scale(1.1);
+    opacity: 0.9;
+}
+.footer{
+    margin: 60px 0;
+    align-items: center;
+    justify-content: center;
+}
+.footer p{
+    text-align: center;
+    font-size: 14px;
+    margin: 10px 0;
+    color: #444;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 18px;
+    margin-bottom: 20px;  
+}
+

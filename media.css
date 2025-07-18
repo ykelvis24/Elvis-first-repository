@@ -1,0 +1,60 @@
+body{
+    background-color: red;
+    width: 90%;
+}
+
+h1{
+    color: aqua;
+    font-size: 30px;
+    font-weight: 100;
+}
+
+nav{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 20px;
+    color: aqua;
+}
+
+.media {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    padding-top: 5%;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+    body{
+        background-color: blue;
+    }
+
+    nav{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    nav a{
+        font-size: 12px;
+        font-family: sans-serif;
+    }
+    
+    .media{
+        display: flex;
+        flex-direction: column;
+    }
+}
